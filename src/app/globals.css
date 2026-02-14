@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../scales-gen-css/scales.css";
+@import "../css/prose-content.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --spacing: 4px;
+
+  --font-sans:
+    var(--next-font-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono:
+    var(--next-font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco,
+    Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --color-*: initial;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-debug: #f0f;
+  --color-debugAlt: #f00;
+}
+
+/* light theme */
+@theme {
+  --color-cOutlineFocus: var(--p72);
+  --color-cBackdrop: --alpha(var(--n10) / 40%);
+  --color-cBorder: var(--n88);
+  --color-cBgInlineCode: var(--n91);
+
+  --color-cText: var(--n05);
+  --color-cTextDim: var(--n50);
+  --color-cTextLink: var(--p45);
+
+  --color-cBgMain: var(--n99); /* pure white */
+  --color-cBgMainHover: var(--n96);
+  --color-cBgMainActive: var(--n93);
+}
+
+/* dark theme */
+@layer theme {
+  :root,
+  :host {
+    @variant dark {
+      --color-cOutlineFocus: var(--p62);
+      --color-cBackdrop: --alpha(var(--n10) / 40%);
+      --color-cBorder: var(--n32);
+      --color-cBgInlineCode: var(--n28);
+
+      --color-cText: var(--n88);
+      --color-cTextDim: var(--n67);
+      --color-cTextLink: var(--p70);
+
+      --color-cBgMain: var(--n23);
+      --color-cBgMainHover: var(--n26);
+      --color-cBgMainActive: var(--n30);
+    }
+  }
+}
+
+/* base styles */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-cOutlineFocus);
+  }
+
+  button {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: default;
+  }
+}
+
+/* basic classes */
+@layer components {
+  .common-link {
+    color: var(--color-cTextLink);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .page-container {
+    margin-inline: auto;
+    max-width: 740px;
+    padding-inline: 16px;
+  }
+}
