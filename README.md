@@ -12,3 +12,5 @@ Have `node` and `pnpm` installed, then do:
 $ pnpm install
 $ pnpm run dev
 ```
+
+The app will run on http://localhost:3020, open it in your browser.
