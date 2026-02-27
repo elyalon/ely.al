@@ -3,8 +3,6 @@ title: Uncommon VS Code Shortcuts
 date: 2026-02-27
 ---
 
-## Introduction
-
 The visual keyboard shortcuts editor in VS Code (openable with _"Preferences:
 Open Keyboard Shortcuts"_ in the command palette) can be used to edit keyboard
 shortcuts.
