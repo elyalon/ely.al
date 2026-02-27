@@ -145,3 +145,20 @@ is a snippet from my `keybindings.json` of how I use it:
   // SNIP
 ]
 ```
+
+Also, at the top of my `settings.json` I have the settings which are toggled by
+these shortcuts so I can easily see their current values:
+
+```json
+{
+  // TOGGLED WITH KEYBINDINGS
+  "editor.renderWhitespace": "all",
+  "editor.guides.indentation": true,
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "off",
+  "editor.folding": false,
+  "scm.diffDecorations": "none"
+
+  // ... the rest of my settings
+}
+```
