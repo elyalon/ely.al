@@ -21,11 +21,11 @@ Here's what they look like in okscale:
 
 **Primary Scale**:
 
-![Primary scale](/assets/okscale_design_post_primary.jpeg)
+![Primary scale](https://hq3ywinmy4lz79wq.public.blob.vercel-storage.com/okscale_design_post_primary.jpeg)
 
 **Neutral Scale**:
 
-![Neutral scale](/assets/okscale_design_post_neutral.jpeg)
+![Neutral scale](https://hq3ywinmy4lz79wq.public.blob.vercel-storage.com/okscale_design_post_neutral.jpeg)
 
 Notice how they linearly progress in lightness from 0 to 1. I found that even
 though I might not use the far ends of the scales, having the full range means I
@@ -152,7 +152,7 @@ Then you can use these tokens in your HTML like this:
 
 ## Why it's better than creating color scales manually
 
-![Tailwind colors](/assets/okscale_design_post_tailwind_colors.jpeg)
+![Tailwind colors](https://hq3ywinmy4lz79wq.public.blob.vercel-storage.com/okscale_design_post_tailwind_colors.jpeg)
 
 The way Tailwind created their
 [default color palette](https://tailwindcss.com/docs/colors) (which uses a
