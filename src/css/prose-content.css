@@ -116,9 +116,9 @@
 
   & code:not(pre code) {
     background-color: var(--color-cBgInlineCode);
-    padding: 1px 3px;
+    padding: 1px 5px;
     border-radius: 4px;
     font-family: var(--font-mono);
-    font-size: 0.9em;
+    font-size: 0.85em;
   }
 }

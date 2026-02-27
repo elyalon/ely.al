@@ -46,7 +46,7 @@
       --color-cOutlineFocus: var(--p62);
       --color-cBackdrop: --alpha(var(--n10) / 40%);
       --color-cBorder: var(--n32);
-      --color-cBgInlineCode: var(--n28);
+      --color-cBgInlineCode: var(--n34);
 
       --color-cText: var(--n88);
       --color-cTextDim: var(--n67);
