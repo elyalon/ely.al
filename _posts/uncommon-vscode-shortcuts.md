@@ -72,6 +72,8 @@ I really like paragraph movement because it's a nice in-between of line movement
 (`Up`/`Down`) and page movement (`PgUp`/`PgDn`). It's also just a nice "logical
 unit" of movement, as programmers use empty lines to delineate separation.
 
+**Note**: On MacOS, `Ctrl+Up` and `Ctrl+Down` are bound to Mission Control shortcuts. You can change or disable those in **System Preferences > Keyboard > Keyboard Shortcuts... > Mission Control**.
+
 ## Arbitrary Toggles
 
 The
